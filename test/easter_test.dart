@@ -1,0 +1,20 @@
+import 'dart:io';
+import 'dart:convert';
+import 'package:test/test.dart';
+import 'package:easter/easter.dart';
+
+void main() async {
+  final json = await File('test/test_data.json').readAsString();
+  List<DateTime> data = List<DateTime>();
+  (jsonDecode(json) as List<dynamic>).forEach((item) => data.add(DateTime.parse(item)));
+  
+  group('Get date of Easter', () {
+    for (final expected in data) {
+      final year = expected.year;
+      test(year, () {
+        final actual = getEaster(year);
+        expect(actual, expected);
+      });
+    }
+  });
+}
