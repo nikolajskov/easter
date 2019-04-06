@@ -1,8 +1,8 @@
 name: easter
-version: 1.0.0
+version: 1.0.0+1
 
 description: A small Dart package that calculates the date of Easter from 1583 to 4099.
-author: Nikolaj Hesselholt Skov
+author: Nikolaj Hesselholt Skov <nikolajhesselholtskov@gmail.com>
 homepage: https://github.com/nikolajskov/easter
 
 environment:
