@@ -17,4 +17,13 @@ void main() async {
       });
     }
   });
+
+  group('Invalid year throws error', () {
+    var data = [-1, 0, 326, 1582, 4100];
+    for (final year in data) {
+      test(year, () {
+        expect(() => getEaster(year), throwsArgumentError);
+      });
+    }
+  });
 }
