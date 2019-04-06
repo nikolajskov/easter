@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/nikolajskov/easter.svg?branch=master)](https://travis-ci.org/nikolajskov/easter)
+
+
 # easter
 
 Small Dart package that calculates the date of Easter from 1583 to 4099.
