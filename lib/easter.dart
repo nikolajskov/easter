@@ -6,7 +6,8 @@ library easter;
 /// Returns a [DateTime] object with the date of Easter set and the time portion left untouched.
 DateTime getEaster(int year) {
   if (year < 1583) {
-    throw ArgumentError.value(year, 'year', 'Year cannot be earlier than 1583.');
+    throw ArgumentError.value(
+        year, 'year', 'Year cannot be earlier than 1583.');
   }
   if (year > 4099) {
     throw ArgumentError.value(year, 'year', 'Year cannot be later than 4099.');
