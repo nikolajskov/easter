@@ -7,8 +7,10 @@ import 'package:test/test.dart';
 void main() async {
   final json = await File('test/test_data.json').readAsString();
   List<DateTime> data = <DateTime>[];
-  (jsonDecode(json) as List<dynamic>)
-      .forEach((item) => data.add(DateTime.parse(item)));
+  (jsonDecode(json) as List<dynamic>).forEach((item) {
+    final dt = DateTime.parse(item);
+    data.add(DateTime.utc(dt.year, dt.month, dt.day));
+  });
 
   group('Get date of Easter', () {
     for (final expected in data) {
