@@ -27,6 +27,6 @@ DateTime getEaster(int year) {
     day -= 31;
   }
 
-  var easter = DateTime(year, month, day);
+  var easter = DateTime.utc(year, month, day);
   return easter;
 }
