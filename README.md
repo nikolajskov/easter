@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nikolajskov/easter.svg?branch=master)](https://travis-ci.org/nikolajskov/easter)
+[![Build](https://github.com/nikolajskov/easter/actions/workflows/easter.yml/badge.svg)](https://github.com/nikolajskov/easter/actions/workflows/easter.yml)
 
 
 # easter
