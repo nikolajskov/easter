@@ -1,4 +1,4 @@
-name: Easter
+name: Build
 
 on:
   push:
