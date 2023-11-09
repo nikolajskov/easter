@@ -1,4 +1,4 @@
-[![Build](https://github.com/nikolajskov/easter/actions/workflows/build.yml/badge.svg)](https://github.com/nikolajskov/easter/actions/workflows/build.yml)
+[![Build](https://github.com/nikolajskov/easter/actions/workflows/build.yml/badge.svg)](https://github.com/nikolajskov/easter/actions/workflows/build.yml) [![Pub](https://img.shields.io/pub/v/font_awesome_flutter.svg)](https://pub.dev/packages/easter)
 
 
 # easter
