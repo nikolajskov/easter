@@ -1,4 +1,4 @@
-[![Build](https://github.com/nikolajskov/easter/actions/workflows/easter.yml/badge.svg)](https://github.com/nikolajskov/easter/actions/workflows/easter.yml)
+[![Build](https://github.com/nikolajskov/easter/actions/workflows/build.yml/badge.svg)](https://github.com/nikolajskov/easter/actions/workflows/build.yml)
 
 
 # easter
